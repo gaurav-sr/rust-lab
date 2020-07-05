@@ -13,4 +13,10 @@ fn main() {
     } else {
         println!("Age could not be changed");
     }
+    declare_constants();
+}
+
+fn declare_constants() {
+    const YEAR: u16 = 2019;
+    println!("Year is {}", YEAR);
 }
